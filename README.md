@@ -1,5 +1,7 @@
 # Password entry in Xamarin.Forms
 
+A code sample for the Xamarin.Forms [issue 10857](https://github.com/xamarin/Xamarin.Forms/issues/10857).
+
 ## The issue
 
 In a Xamarin.Forms app, we have an `Entry` and a button to show/hide password. It works perfectly fine on iOS but on Android, once the password is shown, the keyboard shows also text predictions, even though the predictions and spellcheck are disabled:
